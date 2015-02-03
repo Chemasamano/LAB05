@@ -14,6 +14,8 @@
 		FC0CCC6F1A8005C2007770EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC0CCC6E1A8005C2007770EC /* Images.xcassets */; };
 		FC0CCC721A8005C2007770EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC0CCC701A8005C2007770EC /* LaunchScreen.xib */; };
 		FC0CCC7E1A8005C2007770EC /* Lab05Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC0CCC7D1A8005C2007770EC /* Lab05Tests.m */; };
+		FCD137821A809011002BA72F /* 18484.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD137801A809011002BA72F /* 18484.png */; };
+		FCD137831A809011002BA72F /* UAG_logotype.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCD137811A809011002BA72F /* UAG_logotype.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		FC0CCC771A8005C2007770EC /* Lab05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC0CCC7C1A8005C2007770EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC0CCC7D1A8005C2007770EC /* Lab05Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab05Tests.m; sourceTree = "<group>"; };
+		FCD137801A809011002BA72F /* 18484.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18484.png; sourceTree = "<group>"; };
+		FCD137811A809011002BA72F /* UAG_logotype.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UAG_logotype.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		FC0CCC551A8005C2007770EC = {
 			isa = PBXGroup;
 			children = (
+				FCD137801A809011002BA72F /* 18484.png */,
+				FCD137811A809011002BA72F /* UAG_logotype.jpg */,
 				FC0CCC601A8005C2007770EC /* Lab05 */,
 				FC0CCC7A1A8005C2007770EC /* Lab05Tests */,
 				FC0CCC5F1A8005C2007770EC /* Products */,
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC0CCC6D1A8005C2007770EC /* Main.storyboard in Resources */,
+				FCD137821A809011002BA72F /* 18484.png in Resources */,
 				FC0CCC721A8005C2007770EC /* LaunchScreen.xib in Resources */,
+				FCD137831A809011002BA72F /* UAG_logotype.jpg in Resources */,
 				FC0CCC6F1A8005C2007770EC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +420,7 @@
 				FC0CCC831A8005C2007770EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC0CCC841A8005C2007770EC /* Build configuration list for PBXNativeTarget "Lab05Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				FC0CCC861A8005C2007770EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
